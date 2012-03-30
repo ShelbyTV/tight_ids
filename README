@@ -1,0 +1,5 @@
+Go from long base10 or base16 numbers (like Mongo's ObjectIds) to shorter and prettier radix-64 strings.
+Be kind, use them in your URLs.
+
+"4f637d6cb415cc6111000021".tight() -> "JsDzRBGLp"
+"JsDzRBGLp".loose() -> "4f637d6cb415cc6111000021"
